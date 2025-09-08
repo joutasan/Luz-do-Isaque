@@ -37,6 +37,7 @@
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"Sala1","path":"rooms/Sala1/Sala1.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"Isaque","path":"sprites/Isaque/Isaque.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
