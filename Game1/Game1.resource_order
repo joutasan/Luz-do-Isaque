@@ -19,6 +19,8 @@
   "ResourceOrderSettings":[
     {"name":"Menu","order":1,"path":"rooms/Menu/Menu.yy",},
     {"name":"rm_Level_1","order":2,"path":"rooms/rm_Level_1/rm_Level_1.yy",},
+    {"name":"spr_player_back_walking","order":4,"path":"sprites/spr_player_back_walking/spr_player_back_walking.yy",},
+    {"name":"spr_player_back","order":3,"path":"sprites/spr_player_back/spr_player_back.yy",},
     {"name":"spr_player_walk","order":2,"path":"sprites/spr_player_walk/spr_player_walk.yy",},
     {"name":"Sprite1","order":1,"path":"sprites/Sprite1/Sprite1.yy",},
   ],
