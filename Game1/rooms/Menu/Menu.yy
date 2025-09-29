@@ -1,5 +1,5 @@
 {
-  "$GMRoom":"v1",
+  "$GMRoom":"",
   "%Name":"Menu",
   "creationCodeFile":"",
   "inheritCode":false,
@@ -27,10 +27,10 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":90,
+    "Height":100,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":160,
+    "Width":200,
   },
   "sequenceId":null,
   "views":[
