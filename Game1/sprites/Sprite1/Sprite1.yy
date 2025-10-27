@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Sprite1",
   "bboxMode":0,
-  "bbox_bottom":127,
+  "bbox_bottom":15,
   "bbox_left":0,
-  "bbox_right":227,
+  "bbox_right":15,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -14,9 +14,9 @@
   "frames":[
     {"$GMSpriteFrame":"","%Name":"7c20fd69-ed74-409a-b66c-8f591efb1f68","name":"7c20fd69-ed74-409a-b66c-8f591efb1f68","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
-  "gridX":10,
-  "gridY":10,
-  "height":128,
+  "gridX":20,
+  "gridY":20,
+  "height":16,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"e1d2f6f3-8f1b-409b-8128-1ce08e306a07","blendMode":0,"displayName":"default","isLocked":false,"name":"e1d2f6f3-8f1b-409b-8128-1ce08e306a07","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Cenas",
-    "path":"folders/Cenas.yy",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":228,
+  "width":16,
 }

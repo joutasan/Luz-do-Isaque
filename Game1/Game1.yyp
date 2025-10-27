@@ -35,7 +35,9 @@
   "name":"Game1",
   "resources":[
     {"id":{"name":"IsaqueObj","path":"objects/IsaqueObj/IsaqueObj.yy",},},
-    {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},},
+    {"id":{"name":"obj_level_generator","path":"objects/obj_level_generator/obj_level_generator.yy",},},
+    {"id":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},},
     {"id":{"name":"Sala1","path":"rooms/Sala1/Sala1.yy",},},
     {"id":{"name":"Isaque","path":"sprites/Isaque/Isaque.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
@@ -43,8 +45,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},},
     {"roomId":{"name":"Sala1","path":"rooms/Sala1/Sala1.yy",},},
-    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
