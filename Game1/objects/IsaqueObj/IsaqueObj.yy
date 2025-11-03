@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Isaque",
-    "path":"sprites/Isaque/Isaque.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
