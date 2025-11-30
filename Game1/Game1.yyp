@@ -1,8 +1,8 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"Game1",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -33,17 +33,16 @@
     {"$GMFolder":"","%Name":"Idle","folderPath":"folders/Sprites/Mugen/Idle.yy","name":"Idle","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Walk","folderPath":"folders/Sprites/Mugen/Walk.yy","name":"Walk","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"Game1",
   "resources":[
     {"id":{"name":"IsaqueObj","path":"objects/IsaqueObj/IsaqueObj.yy",},},
-    {"id":{"name":"obj_level_generator","path":"objects/obj_level_generator/obj_level_generator.yy",},},
-    {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},},
     {"id":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},},
     {"id":{"name":"Sala1","path":"rooms/Sala1/Sala1.yy",},},
     {"id":{"name":"BatFly","path":"sprites/BatFly/BatFly.yy",},},
@@ -59,16 +58,16 @@
     {"id":{"name":"MGWalkRight","path":"sprites/MGWalkRight/MGWalkRight.yy",},},
     {"id":{"name":"MonsterPunch","path":"sprites/MonsterPunch/MonsterPunch.yy",},},
     {"id":{"name":"MonsterWalk","path":"sprites/MonsterWalk/MonsterWalk.yy",},},
+    {"id":{"name":"ReptileWalk","path":"sprites/ReptileWalk/ReptileWalk.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
-    {"id":{"name":"ReptileWalk","path":"sprites/ReptileWalk/ReptileWalk.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},},
     {"roomId":{"name":"Sala1","path":"rooms/Sala1/Sala1.yy",},},
+    {"roomId":{"name":"rm_level","path":"rooms/rm_level/rm_level.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

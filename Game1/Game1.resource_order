@@ -24,8 +24,6 @@
     {"name":"Walk","order":2,"path":"folders/Sprites/Mugen/Walk.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"obj_level_generator","order":2,"path":"objects/obj_level_generator/obj_level_generator.yy",},
-    {"name":"Object2","order":1,"path":"objects/Object2/Object2.yy",},
     {"name":"rm_level","order":1,"path":"rooms/rm_level/rm_level.yy",},
     {"name":"BossSummon","order":1,"path":"sprites/BossSummon/BossSummon.yy",},
     {"name":"MGIdleFront","order":1,"path":"sprites/MGIdleFront/MGIdleFront.yy",},
