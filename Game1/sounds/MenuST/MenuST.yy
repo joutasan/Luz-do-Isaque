@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"MenuST",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":0,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":51.226234,
+  "exportDir":"",
+  "name":"MenuST",
+  "parent":{
+    "name":"Sons",
+    "path":"folders/Sons.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":5512,
+  "soundFile":"MenuST.mp3",
+  "volume":1.0,
+}
