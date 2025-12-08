@@ -50,7 +50,7 @@ function Movement() {
         sprite_index = MGAtk;
         image_index = 0;
         image_speed = 0.3; // slower spin attack animation speed
-        alarm[0] = sprite_get_number(MGAtk) * (1 / image_speed); 
+        alarm[0] = 55; 
         // sync alarm to animation duration
     }
 	if (MugenObj.attacking == true)
