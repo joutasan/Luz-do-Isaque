@@ -1,10 +1,20 @@
 function sprite_scr()
 {
+    // STOP all sprite logic during death
+    if (dead) {
+        // Freeze on last frame of MGDeath
+        if (image_index >= image_number - 1) {
+            image_index = image_number - 1;
+            image_speed = 0;
+        }
+        exit;
+    }
+
     // Attack overrides everything and is NOT flipped
     if (attacking) {
         sprite_index = MGAtk;
-        image_xscale = 1;  // lock no flip
-        image_speed = 1;   // ensure playback
+        image_xscale = 1;
+        image_speed = 1;
         exit;
     }
 

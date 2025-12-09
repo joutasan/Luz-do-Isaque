@@ -3,4 +3,4 @@
 
 // Inherit the parent event
 event_inherited();
-room_goto(Sala1);
+room_goto(Warn);

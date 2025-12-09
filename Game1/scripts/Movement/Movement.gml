@@ -1,4 +1,9 @@
 function Movement() {
+if (dead) {
+    hspeed = 0;
+    vspeed = 0;
+    exit;     // stop running any movement logic
+}
 
     input_scr(); // Get fresh input FIRST
     
@@ -63,23 +68,24 @@ function Movement() {
 
     // --- COLLISION SYSTEM ---
 
-    // Horizontal collision
-    if (place_meeting(x + hspd, y, wall)) {
-        while (!place_meeting(x + sign(hspd), y, wall)) {
-            x += sign(hspd);
-        }
-        hspd = 0;
+// Horizontal collision
+if (place_meeting(x + hspd, y, obj_Obstacle)) {
+    while (!place_meeting(x + sign(hspd), y, obj_Obstacle)) {
+        x += sign(hspd);
     }
+    hspd = 0;
+}
 
-    // Vertical collision
-    if (place_meeting(x, y + vspd, wall)) {
-        while (!place_meeting(x, y + sign(vspd), wall)) {
-            y += sign(vspd);
-        }
-        vspd = 0;
+// Vertical collision
+if (place_meeting(x, y + vspd, obj_Obstacle)) {
+    while (!place_meeting(x, y + sign(vspd), obj_Obstacle)) {
+        y += sign(vspd);
     }
+    vspd = 0;
+}
+
 
     // Apply movement
     x += hspd;
-    y += vspd;
+    y += vspd;	
 }

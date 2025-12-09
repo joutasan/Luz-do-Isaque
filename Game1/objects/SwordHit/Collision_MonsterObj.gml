@@ -1,6 +1,5 @@
-if (MugenObj.attacking == true)
-{
-	MonsterObj.hp -= dmg
-	dmg = 0
-	Alarm[0] = 15
+if (instance_exists(MugenObj) && MugenObj.attacking) {
+    other.hp -= dmg;
+    dmg = 0;
+    alarm[0] = 55;
 }
